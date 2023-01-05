@@ -1,0 +1,30 @@
+
+1) Start Zookeeper Server : 
+        D:\Softwares\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+        
+2) Start Kafka Server :
+        D:\Softwares\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+3) Run the Producer Application [Order-Service]
+
+4) Run the Client Application [Stock-Service]
+
+5) Run the One More Client Application [Email-Service]
+
+6) Open POSTMAN TOOL and make below Request
+
+POST  http://localhost:8081/api/orders  SEND
+---------------------------------------------
+      BODY    RAW(*)
+---------------------------------------------
+{
+  "name" : "LAPTOP",
+  "qty" : 2,
+  "price" : 200000.00
+}
+---------------------------------------------
+
+7) Verify Stock-Service Database to View Order Details
+
+8) Open Email to View Order Details
+*********************************************
