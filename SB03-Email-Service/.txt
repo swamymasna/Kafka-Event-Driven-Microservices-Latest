@@ -1,0 +1,15 @@
+
+
+Hi {FNAME},
+
+
+Welcome to Swamy Softwares Solutions, Your Registration is almost completed.
+Please use below details to unlock your account. 
+
+Temporary Password : {TEMP-PWD} 
+
+<a href='http://localhost:9090/unlockAcc?email={EMAIL}'>Click Here to Unlock Your Account</a>
+
+
+Thanks & Regards, 
+CodeBySwamy..

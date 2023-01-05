@@ -1,0 +1,17 @@
+
+
+Welcome : {MAIL_SENDER},
+
+
+Welcome to SM Shopping Kart, Your Order is Placed Successfully.
+
+Your Order Details are :
+Order Id : {ORDER_ID},
+Order Status : {STATUS},
+Order Message : {MESSAGE},
+Order Name : {ORDER_NAME},
+Order Quantity : {QTY},
+Order Price : {PRICE}
+
+Thanks & Regards, 
+SM Shopping Kart..
